@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.test {
+  border: 3px solid red;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+footer p {
+  bottom: 0;
+  width: 100%;
+  height: 10 rem;
+  margin: 18px 0 0 20px;
+  padding: 10px;
+  position: relative;
+  color: black;
+}
+
+todo-List {
+  min-width: 30%;
+}
+
+.todo-item {
+  margin: 0.5rem;
+  padding: 0.3rem;
+  margin-left: 40%;
+  margin-right: 45%;
+  color: black;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trash-btn,
+.complete-btn {
+  color: white;
+  background: tomato;
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.complete-btn:hover {
+  background: green;
+}
+
+.trash-btn:hover {
+  background: darkred;
+}
